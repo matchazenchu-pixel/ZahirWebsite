@@ -843,3 +843,22 @@ body.v2.dark .page-header {
   background: #0b1120;
   border-bottom-color: #1f2c47;
 }
+
+/* Pratinjau gambar di kartu versi (halaman pemilih) */
+body.v2 .kartu-versi { position: relative; overflow: hidden; }
+body.v2 .kartu-versi .preview-img {
+  display: block;
+  width: calc(100% + 56px);
+  margin: -28px -28px 22px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top center;
+  border-bottom: 1px solid var(--b2-border);
+}
+body.v2 .kartu-versi .tag {
+  position: absolute;
+  top: 44px;
+  left: 44px;
+  z-index: 2;
+  box-shadow: 0 4px 14px rgba(16, 24, 40, .18);
+}
