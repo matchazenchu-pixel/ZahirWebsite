@@ -968,3 +968,26 @@ body.v2.dark .wa-panel-body::-webkit-scrollbar-thumb { background: #42516d; }
 body.v2 .modal-kotak { bottom: 104px; }
 body.v2.dark .modal-backdrop { background: transparent; backdrop-filter: none; -webkit-backdrop-filter: none; }
 @media (max-width: 560px) { body.v2 .modal-kotak { bottom: 94px; } }
+
+/* Beri ruang untuk bubble chat Tawk.to di kanan bawah */
+body.v2 .wa-float { bottom: 96px; }
+body.v2 .modal-kotak {
+  bottom: 164px;
+  max-height: min(560px, calc(100dvh - 238px));
+}
+@media (max-width: 560px) {
+  body.v2 .modal-kotak { bottom: 164px; }
+}
+
+/* Tombol WA pindah ke kiri bawah — hindari tabrakan dengan widget Tawk (kanan) */
+body.v2 .wa-float { left: 22px; right: auto; bottom: 22px; }
+body.v2 .modal-kotak {
+  left: 22px;
+  right: auto;
+  bottom: 90px;
+  transform-origin: bottom left;
+}
+@media (max-width: 560px) {
+  body.v2 .wa-float { left: 12px; }
+  body.v2 .modal-kotak { left: 12px; bottom: 80px; width: calc(100vw - 24px); }
+}
