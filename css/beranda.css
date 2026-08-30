@@ -864,7 +864,7 @@ body.v2 .kartu-versi .tag {
 }
 
 /* ---------- WhatsApp support panel ---------- */
-body.v2 .modal-wa { position: fixed; inset: 0; z-index: 300; pointer-events: none; }
+body.v2 .modal-wa { position: fixed; inset: 0; z-index: 9999; pointer-events: none; }
 body.v2 .modal-wa[hidden] { display: none; }
 body.v2 .modal-backdrop { position: absolute; inset: 0; background: rgba(7,12,22,.34); backdrop-filter: blur(2px); pointer-events: auto; }
 body.v2 .modal-kotak {

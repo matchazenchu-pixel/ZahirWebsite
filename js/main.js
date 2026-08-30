@@ -133,6 +133,7 @@
     if (document.getElementById("modal-keluhan")) return;
     var wrap = document.createElement("div");
     wrap.id = "modal-keluhan";
+    wrap.className = "modal-wa";
     wrap.hidden = true;
     wrap.innerHTML =
       '<div class="modal-backdrop" data-tutup></div>' +
