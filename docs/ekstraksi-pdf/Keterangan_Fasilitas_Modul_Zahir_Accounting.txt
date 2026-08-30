@@ -1,0 +1,679 @@
+===== HALAMAN 1 =====
+
+Fasilitas-Fasilitas Yang Dapat Digunakan Pada Zahir Accounting :
+
+Transaksi Jasa
+
+Fasilitas   transaksi   jasa   digunakan   untuk   pencatatan   transaksi   baik   pembelian   dan   penjualan   yang 
+
+berhubungan dengan jasa, proses pembelian tidak melibatkan data stock atau persediaan, artinya transaksi 
+
+pembelian dan penjualan tidak menggunakan produk / persediaan baik yang dilakukan secara tunai maupun 
+
+dilakukan secara kredit.
+
+Dengan fasilitas ini anda dapat mencatat pendapatan jasa dan pembelian atau pengeluaran biaya atas jasa 
+
+yang digunakan dari pihak lain. Jika transaksi dicatat secara kredit anda dapat melihat informasi hutang dan 
+
+piutang yang terjadi atas transaksi tersebut.
+
+Inventory
+
+fasilitas Inventory / Persediaan digunakan jika transaksi diperusahaan melibatkan stock atau persediaan dan 
+
+anda memerlukan kontrol atas data persediaan yang digunakan dalam transaksi pembelian dan penjualan 
+
+dan penyesuaian atas persediaan. Dengan adanya fasilitas ini anda dapat mengetahui saldo untuk masing-
+
+masing produk dari laporan buku besar persediaan. Selain itu anda dapat mengetahui laporan analisa produk, 
+
+yang dapat membantu anda untuk pengambilan keputusan atas produk tertentu.
+
+Proyek
+
+Untuk perusahaan yang bidang usahanya berhubungan dengan pengerjaan suatu proyek atau kegiatan 
+
+tertentu. Fasilitas modul proyek dapat digunakan untuk mengalokasikan setiap transaksi pendapatan dan 
+
+biaya dari masing-masing proyek dengan sangat rinci. Setiap transaksi yang berhubungan dengan proyek 
+
+tertentu akan dicatat dan dihubungkan ke proyek yang bersangkutan, sehingga hasilnya anda dapat 
+
+mengahui informasi laporan laba atau rugi untuk masing-masing proyek disamping itu anda bisa 
+
+membandingkan antara anggaran dari masing-masing proyek dengan realisasi transaksi atas proyek tersebut.
+
+Departemen
+
+Fasilitas departemen digunakan untuk mencatat dan mengelola transaksi dari masing-masing departemen / 
+
+divisi atau unit usaha di perusahaan, anda perlu membuat data dari masing-masing departemen di 
+
+perusahaan, sehingga nantinya anda bisa mengontrol transaksi dari masing-masing department dengan 
+
+menghubungkan transaksi yang dicatat ke departemen atau divisi sesuai dengan transaksi di masing-masing 
+
+departemen atau divisi tersebut, anda juga dapat mengetahui informasi laporan laba rugi dari transaksi di 
+
+masing-masing department.
+
+===== HALAMAN 2 =====
+
+Fixed Asset
+
+Fasilitas harta tetap (fixed asset) ini bermanfaat untuk mengelola (menginventarisir) harta tetap yang dimiliki 
+
+perusahaan anda dan membantu anda dalam penghitungan beban penyusutan perbulan, akumulasi beban 
+
+dan nilai buku. Anda perlu mencatat data aktiva tetap seperti tanggal perolehan, nilai perolehan, nilai residu, 
+
+umur ekonomis dan metode yang digunakan untuk perhitungan penyusutan aktiva tetap. Dari data aktiva 
+
+tetap yang telah diinput maka anda dapat memperoleh informasi laporan penyusutan dari masing-masing 
+
+aktiva tetap.
+
+Fasilitas harta tetap atau fixed asset dapat memudahkan anda dalam mengelola dan menghitung penyusutan 
+
+dari masing-masing harta tetap yang dimiliki oleh perusahaan. Sehingga anda dapat memperoleh informasi 
+
+dari nilai buku untuk masing masing harta tetap. Fasilitas ini juga memudahkan anda dalam membuat jurnal 
+
+penyusutan secara otomatis dari acuan data harta tetap yang sudah diinput. 
+
+Giro Mundur
+
+Fasilitas giro mundur digunakan untuk mencatat transaksi baik penerimaan bank atau pengeluaran bank 
+
+yang menggunakan cek atau giro. Dengan fasilitas ini anda dapat dengan mudah mengetahui informasi giro 
+
+yang diterima dan giro yang dikeluarkan. Anda juga dapat mencatat transaksi pencairan atas giro tersebut.
+
+Retur
+
+Fasilitas retur terdiri dari retur pembelian dan retur penjualan, dengan adanya fasilitas ini anda dapat 
+
+mencatat pengembalian (retur) dari transaksi pembelian atau penjualan disebabkan karena barang yang 
+
+dikirim atau diterima tidak sesuai dengan pesanan atau dalam keadaan kurang baik.
+
+Assembly
+
+Fasilitas assembly (perakitan) dapat memudahkan anda untuk melakukan pencatatan produksi dari suatu 
+
+produk yang sudah ditentukan komponen atau material penyusun untuk produk tersebut. Sehingga anda 
+
+dapat melakukan proses pencatatan produksi dari suatu produk secara otomatis sesuai dengan komponen 
+
+penyusun yang sudah ditentukan sebelumnya.
+
+Pertama anda perlu menentukan terlebih dahulu komposisi produk yang akan dirakit. Dengan adanya fasilitas 
+
+assembly / perakitan, anda tinggal menginput jumlah produk yang akan diproduksi, sehingga zahir akan 
+
+otomatis menghitung jumlah produksi dan jumlah material yang digunakan dalam produksi tersebut sesuai 
+
+dengan komposisi yang telah ditentukan sebelumnya.
+
+Deassembly
+
+Fasilitas deassembly merupakan kebalikan dari fasilitas assembly, fungsi dari fasilitas deassembly adalah 
+
+koreksi untuk transaksi assembly yang sudah pernah dilakukan sebelumnya, sehinnga produk-produk yang 
+
+digunakan dalam proses assembly akan kembali kepada nilai semula.
+
+===== HALAMAN 3 =====
+
+Inventory movement
+
+Fasilitas ini memudahkan anda untuk mencatat transaksi produksi suatu barang. Anda tinggal mementukan 
+
+jumlah produk yang dibutuhkan untuk memproduksi suatu barang dan jumlah barang yang diproduksi. Maka 
+
+harga pokok dari barang yang di produksi dapat dihitung secara otomatis dari acuan harga pokok produk yang 
+
+digunakan untuk produksi.
+
+Kas & Bank
+
+Modul kas & bank terdiri dari fasilitas transfer kas, kas masuk, dan kas keluar.
+
+* Modul Transfer Kas merupakan alat bantu untuk memudahkan pencatatan pemindahan saldo kas/bank 
+
+dari satu perkiraan kas/bank ke perkiraan kas/bank lainnya. Misalnya untuk mencatat Setoran uang kas ke 
+
+bank.
+
+* Modul Kas Masuk digunakan untuk mencatat transaksi penerimaan kas/bank. Misalnya pencatatan 
+
+transaksi pendapatan sewa dari pihak lain.
+
+• Modul Kas Keluar digunakan untuk mencatat transaksi pengeluaran kas/bank. Misalnya pencatatan 
+
+transaksi pengeluaran biaya listrik.
+
+Rekonsiliasi Bank
+
+Rekonsilasi digunakan untuk mencocokan pencatatan saldo rekening koran yang diterima dari bank dengan 
+
+pencatatan menurut buku perusahaan, anda dapat melakukan pencocokan pencatatan transaksi di zahir 
+
+dengan rekening koran bank yang anda terima setiap bulannya. Anda dapat melakukan penyesuaian atas 
+
+pencatatan transaksi bank pada zahir accounting, jika terdapat perbedaan pencatatan antara rekening koran 
+
+bank dengan pencatatan transaksi di bank pada zahir accounting. Karena bisa saja terjadi suatu transaksi 
+
+bank yang sudah tercatat di rekening koran bank, namun perusahaan belum mencatat transaksi tersebut 
+
+pada zahir accounting atau sebaliknya.
+
+Klasifikasi Data
+
+Fasilitas klasifikasi data dapat memudahkan anda dalam pengelompokkan data nama alamat pelanggan, 
+
+supplier, karyawan dan pihak lainnya. Selain itu fasilitas klaisifikasi data dapat digunakan untuk 
+
+pengklasifikasian data produk. 
+
+Misalnya anda membagi pelanggan berdasarkan klasifikasi wilayah pemasaran, maka anda dapat mengetahi 
+
+informasi laporan penjualan untuk masing-masing pelanggan berdasarkan wilayah pemasaran.
+
+Serial Number
+
+Fasilitas serial number (nomor seri) digunakan untuk produk-produk yang dalam pencatatannya 
+
+menggunakan nomor seri selain nomor kode produk seperti handphone, produk-produk elekronik, kendaraan 
+
+dan sebagainya. Sehingga anda dapat melakukan transaksi pembelian dan penjualan sesuai dengan acuan 
+
+nomor seri produk yang bersangkutan. Dengan fasilitas ini anda dapat mengetahui informasi nomor seri yang 
+
+tersedia dan nomor seri yang sudah terjual.
+
+===== HALAMAN 4 =====
+
+Lot Number
+
+Fasilitas lot number digunakan jika anda mempunyai produk-produk dengan masa kadaluarsa seperti 
+
+makanan dan obat-obatan. Dengan fasilitas ini anda dapat mengontrol persediaan yang sudah tidak bisa di 
+
+gunakan atau masa kadaluarsanya sudah habis (expire). Sehingga ketika terjadi transaksi penjualan, akan 
+
+terdapat informasi atas tanggal kadaluarsa dari produk yang dijual. Fasilitas ini membantu anda untuk 
+
+menampilkan laporan nomor lot dan tanggal kadaluarsa dari produk.
+
+Akun AliasName
+
+Dengan fasiltas akun alias name anda dapat menggunakan dua nama akun untuk satu akun yang sama. 
+
+Misalnya anda memerlukan untuk membuat akun dengan bahasa Indonesia dan bahasa inggris, sehingga 
+
+nantinya anda dapat menampilkan laporan dengan menggunakan nama akun dengan bahasa Indonesia dan 
+
+akun dengan bahasa inggris.
+
+Anda dapat menggunakan fasilitas akun alias name jika anda membutuhkan format laporan keuangan 
+
+menggunakan 2 bahasa, caranya sangatlah mudah, anda tinggal membuat dua akun sesuai dengan 
+
+kebutuhan. Misalnya anda membuat akun untuk kas kecil lalu anda membuat alias name untuk akun 
+
+tersebut yaitu petty cash. Dengan cara tersebut anda bisa menampilkan laporan keuangan dalam format 
+
+standar bahasa indonesia atau bahasa lain yang ditentukan sesuai dengan nama akun alias.
+
+Product Alias Name 
+
+Fasilitas ini digunakan jika produk memiliki kode dan deskripsi lain selain kode dan deskripsi barang utama. 
+
+Sehingga anda dapat menggunakan kode dan deskripsi utama produk dan alias untuk kode dan deskripsi 
+
+ketika menginput transaksi.
+
+Group Barang 
+
+Group barang digunakan untuk pengelompokkan produk berdasarkan kategori tertentu, misalnya anda ingin 
+
+mengkategorikan produk berdasarkan jenis, ukuran, warna dan sebagainya. Dengan adanya pengelompokkan 
+
+berdasarkan group dapat dengan mudah mendapatkan informasi dari laporan sesuai dengan group barang 
+
+tersebut.
+
+Standar Term Of Sales
+
+Dengan fasilitas standar term of sales anda dapat menentukan secara otomatis untuk term atau syarat 
+
+penjualan dan jatuh tempo dari masing-masing pelanggan. Dengan fasilitas ini anda juga dapat menentukan 
+
+persentase diskon awal, hari diskon, hari jatuh tempo dan persentase denda keterlambatan pembayaran 
+
+piutang untuk masing-masing pelanggan. Fasilitas ini membantu anda menampilkan syarat pembayaran 
+
+standar secara otomatis untuk transaksi penjualan atas pelanggan yang bersangkutan.
+
+===== HALAMAN 5 =====
+
+FIFO LIFO
+
+Ada beberapa metode perhitungan harga pokok persediaan diantaranya FIFO, LIFO dan Average.
+
+Dengan menggunakan fasilitas FIFO LIFO anda dapat menentukan perhitungan harga pokok untuk suatu 
+
+produk sesuai dengan metode yang diinginkan. Metode FIFO akan memperhitungkah harga pokok produk 
+
+berdasarkan produk yang pertama kali masuk digudang, metode LIFO akan memperhitungkan harga pokok 
+
+produk berdasarkan produk yang terakhir kali masuk digudang.
+
+Anda tidak perlu lagi menghitung harga pokok dari masing-masing produk. Zahir akan menghitung nilai harga 
+
+pokok secara otomatis dari masing-masing produk sesuai dengan metode perhitungan harga pokok yang 
+
+telah ditentukan sebelumnya.
+
+Multi Fase Proyek
+
+Fasilitas Multi Fase Proyek membantu anda untuk mencatat transaksi yang berhubungan dengan tahapan 
+
+pengerjaan (fase) proyek. Dengan ada fasilitas ini anda dapat menentukan anggaran biaya dan anggaran 
+
+pendapatan pada masing-masing tahapan (fase) pengerjaan proyek tersebut. Selain itu anda juga dapat 
+
+mencatat transaksi real yang berhubungan dengan biaya yang dikeluarkan dalam setiap fase dan pendapatan 
+
+yang diterima pada setiap fase pengerjaan proyek.
+
+Multi Satuan
+
+Fasiltas multi satuan dapat anda gunakan jika transaksi diperusahaan menggunakan lebih dari satu satuan 
+
+pengukuran dan konversi satuan untuk masing-masing satuan pengukuran tersebut. Misalnya anda membuat 
+
+satuan pengukuran untuk gram, kilgoram, centimeter, meter, pcs, box dan sebagainya. Anda bisa 
+
+menentukan satuan pengukuran tersebut dan konversi dari masing-masing satuan pengukuran yang 
+
+digunakan.
+
+Multi Currency
+
+Fasilitas ini memudahkan anda untuk menggunakan lebih dari satu mata uang dalam transaksi. Anda hanya 
+
+perlu membuat data mata uang dan konversi terhadap mata uang utama sehingga ketika transaksi 
+
+menggunakan mata uang asing, zahir akan mengkonversi secara otomatis transaksi tersebut berdasarkan 
+
+acuan kurs tukar mata uang asing terhadap mata uang utama. Fasilias ini juga dapat membantu anda untuk 
+
+menampilkan laporan dalam format mata uang yang diinginkan.
+
+Multi Warehouse
+
+Fasilitas ini digunakan untuk perusahaan yang memiliki lebih dari satu gudang penyimpanan untuk produk. 
+
+Dengan fasilitas ini anda dapat menginput transaksi pemindahan produk dari satu gudang ke gudang lainnya, 
+
+dan anda dapat mencatat transaksi dari masing-masing gudang, hasilnya anda dapat mendapatkan informasi 
+
+stock / persediaan dari masing-masing gudang tersebut.
+
+===== HALAMAN 6 =====
+
+Multi Tax
+
+Fasilitas multi tax digunakan jika terdapat dua atau lebih pajak yang dikenakan pada transaksi baik 
+
+pembelian maupun penjualan, contohnya dalam transaksi penjualan dikenakan pajak PPN dan PPH23. Untuk 
+
+menginput transaksi tersebut anda perlu menggunakan fasilitas multi tax.
+
+Multi Price
+
+Fasilitas multi price digunakan untuk menampilkan harga yang berbeda-beda dari masing-masing golongan 
+
+pelanggan untuk satu produk yang sama. Zahir accounting dapat menampilkan harga jual otomatis untuk 
+
+produk yang sama namun untuk pelanggan yang berbeda. Misalnya harga jual dari suatu produk dibedakan 
+
+atas distributor, agen, pengecer atau pembeli akhir.
+
+Multi Discount
+
+Fasilitas multi discount digunakan untuk transaksi yang menggunakan tingkatan discount lebih dari satu. 
+
+Anda bisa menerapkan lebih dari satu diskon dengan acuan perhitungan dari nilai setelah diskon sebelumnya. 
+
+Acuan penerapan discount bertingkat adalah golongan pelanggan dan jumlah barang yang di beli. Jika 
+
+transaksi memenuhi syarat yang telah ditentukan maka discount bertingkat akan otomatis tampil dalam 
+
+transaksi tersebut.
+
+Multi Fraksi
+
+Fasilitas multi fraksi digunakan untuk pencatatan transaksi pembelian dan penjualan yang menggunakan 
+
+lebih dari satu satuan pengukuran produk. Misalnya anda membeli produk dari supplier dengan satuan KG, 
+
+namun untuk transaksi penjualan anda menjualnya dalam satuan KG dan Gr. Misalnya terjadi transaksi 
+
+penjualan produk sebesar 1 KG 100 Gr. Untuk transaksi demikian dapat anda input dengan fasilitas multi 
+
+fraksi.
+
+Multi Komisi Penjualan
+
+Fasilitas komisi penjualan digunakan dalam transaksi penjualan salesman, sehingga setiap penjualan 
+
+dihubungkan dengan masing-masing salesmannya. Komisi dari masing-masing salesman dapat dihitung 
+
+secara otomatis dan otomatis membentuk jurnal komisi salesman dan hutang komisi salesman. Perhitungan 
+
+komisi penjualan dapat diperoleh dari prosentasi komisi masing-masing golongan salesman, atau prosentase 
+
+komisi dari tabel komisi penjualan, tabel komisi penjualan dapat membedakan prosentase komisi 
+
+berdasarkan golongan salesman dan total nilai penjualan dari salesman tersebut.
+
+Multi Biaya Kirim
+
+Fasilitas ini memudahkan anda untuk memasukkan biaya-biaya yang timbul atas transaksi pembelian atau 
+
+penjualan, sehingga nilai biaya-biaya tersebut akan diperhitungkan kedalam total transaksi pembelian dan 
+
+penjualan.
+
+===== HALAMAN 7 =====
+
+Satuan Laporan
+
+Fasilitas ini digunakan untuk menampilkan laporan yang berhubungan dengan produk sesuai dengan satuan 
+
+yang diinginkan pada laporan. Fasilitas ini memudahkan anda untuk mengetahui laporan produk sesuai 
+
+dengan satuan pada laporan yang diinginkan. Misalnya anda melakukan transaksi dalam satuan lusin, namun 
+
+anda ingin melihat laporan dalam satuan pcs. Untuk kebutuhan tersebut anda bisa menggunakan fasilitas 
+
+satuan laporan.
+
+Desain Laporan
+
+Fasilitas desain laporan membantu anda merubah dan membuat sendiri format laporan sesuai dengan 
+
+kebutuhan laporan di perusahaan. Dengan menggunakan alat bantu fast report anda dapat mendesain sendiri 
+
+format faktur berdasarkan acuan laporan yang sudah disediakan di zahir.
+
+Custom Financial Report
+
+Fasilitas custom financial report dapat membantu anda untuk membuat suatu laporan keuangan yang 
+
+berbeda dari format standar yang sudah disediakan pada zahir accounting.
+
+Custom Aging Schedule
+
+Umumnya umur hutang usaha atau piutang usaha mempunyai masa jatuh tempo 0-30 hari 30-60 hari 60-90 
+
+dan lebih dari 90 hari.
+
+Dengan adanya fasilitas custom aging schedule anda dapat menentukan sendiri standar masa jatuh tempo 
+
+hutang usaha, piutang usaha dan giro. Fasilitas ini juga berguna untuk mengelompokkan hutang usaha dan 
+
+piutang usaha berdasarkan usia hutang usaha dan piutang usaha yang bersangkutan.
+
+Export Laporan
+
+Fasilitas export laporan dapat memudahkan anda untuk mengirim (eksport) laporan dari Zahir ke format file 
+
+lain, seperti PDF, HTML, Text, BMP, Tiff, JPEG, Excel, Email, dan CSV. Sehingga anda dapat dengan mudah 
+
+mendapatkan laporan keuangan dalam format lain sesuai dengan kebutuhan.
+
+Laporan Bisa Di Klik
+
+Dengan adanya fasilitas laporan bisa diklik, anda bisa menganalisa dan menelusuri laporan yang dihasilkan 
+
+sampai ke level transaksi awal yang menghasilkan laporan tersebut, fasilitas ini berguna untuk memeriksa 
+
+dan melihat informasi detail dari saldo transaksi yang disajikan dalam laporan.
+
+Faktur pajak
+
+Dengan fasilitas faktur pajak, anda dapat dengan mudah mencetak faktur pajak sesuai dengan kebutuhan 
+
+dari transaksi yang dikenakan pajak. Sehingga anda tidak perlu membuat kembali faktur pajak secara 
+
+terpisah. Anda tinggal menentukan acuan transaksi yang akan dicetak faktur pajaknya kemudian klik cetak 
+
+faktur, pilih format faktur pajak yang dibutuhkan. Kemudian klik cetak.
+
+===== HALAMAN 8 =====
+
+Konsinyasi 
+
+Fasilias konsinyasi digunakan untuk produk-produk konsinyasi yang diterima dari pihak lain. Nantinya anda 
+
+dapat mengetahui jumlah produk konsinyasi yang diterima, produk konsinyasi yang laku terjual dan produk 
+
+konsinyasi yang dikembelian kepada pemberi konsinyasi.
+
+Purchase Request
+
+Fasilitas ini digunakan untuk mencatat setiap permintaan pembelian produk dari bagian gudang kepada 
+
+bagian pembelian. Sehingga anda dapat mendokumentasikan setiap permintaan pembelian. Dan anda dapat 
+
+mendapatkan laporan permintaan pembelian produk pada periode tertentu.
+
+Purchase Order
+
+Fasilitas ini digunakan untuk mencatat setiap order pembelian kepada supplier. Sehingga anda dapat 
+
+mendokumentasikan setiap order pembelian yang telah dikirimkan kepada supplier. Dan anda dapat 
+
+mendapatkan laporan purchase order kepada supplier dalam periode tertentu.
+
+Sales Quotation
+
+Fasilitas ini digunakan untuk mencatat penawaran harga atas produk atau jasa yang akan ditawarkan kepada 
+
+pelanggan. Sehingga anda dapat mencetak dan mendokumentasikan surat penawaran harga yang dikirimkan 
+
+kepada pelanggan. Surat penawaran harga yang sudah dibuat dapat dijadikan acuan pencatatan transaksi 
+
+sales order, sehingga anda tidak perlu membuat ulang transaksi sales ordernya, cukup mengambil data dari 
+
+surat penawaran harga yang sebelumnya sudah pernah dibuat. Dengan adanya fasilitas ini anda juga dapat 
+
+melihat laporan surat penawaran harga untuk masing-masing pelanggan.
+
+Sales Order
+
+Fasilitas ini digunakan untuk mencatat order penjualan dari pelanggan. Sehingga anda dapat mencetak dan 
+
+mendokumentasikan surat order penjualan yang diterima dari pelanggan. Transaksi sales order yang sudah 
+
+dicatat dapat dijadikan acuan untuk transaksi pengiriman barang / penjualan. Dengan adanya fasilitas ini 
+
+anda juga dapat melihat laporan sales order dari masing-masing pelanggan.
+
+Business Analysis
+
+Fasilitas analisa bisnis atau analisa keuangan digunakan sebagai alat bantu dalam pengambilan keputusan 
+
+yang canggih, karena fasilitas ini menyediakan informasi sehingga anda dapat membaca keadaan atau status 
+
+perusahaan secara cepat, mudah dan akurat. Fasilitas analisa bisnis mampu menyajikan grafik untuk harta, 
+
+neraca, laba rugi, saldo bank, grafik penjualan, analisa rasio keuangan, dan analisa Break Even Point. 
+
+Sehingga anda dapat dengan mudah mengetahui kondisi keuangan diperusahaan.
+
+===== HALAMAN 9 =====
+
+Reminder
+
+Fasilitas reminder berguna untuk mengetahui informasi seperti jatuh tempo hutang, piutang, jatuh giro, serta 
+
+informasi produk yang stocknya sudah mendekati nilai minimum stock.
+
+Grafik
+
+Dengan fasilitas ini dapat memudahkan anda untuk mengetahui performa dari pelanggan, pemasok dan 
+
+karyawan dalam bentuk grafik penjualan, pembelian, dsb disamping itu anda juga dapat mengetahi performa 
+
+dari masing-masing produk berupa grafik penjualan produk.
+
+Predictive Entri
+
+Fasilitas ini berguna untuk memberikan prediksi atau ramalan jurnal yang pernah dicatat sebelumnya untuk 
+
+dijadikan referensi pencatatan jurnal dengan akun yang sama untuk transaksi berikutnya. Sehingga anda 
+
+tidak perlu mencatat dari awal jurnal yang sama untuk transaksi tersebut.
+
+Auto Purchase Order
+
+Fasilitas auto purchase order dapat membantu anda dalam pembuatan surat purchase order (order 
+
+pembelian) secara otomatis dari acuan rekomendasi pembelian kepada pemasok. Rekomendasi pembelian 
+
+tersebut berdasarkan pada setting management persediaan atau dengan menetapkan pemasok utama pada 
+
+untuk masing-masing produk. Sebagai contoh misalnya produk A sudah mendekati nilai stock minimum yang 
+
+ditetapkan, maka zahir akan menginformasikan rekomendasi pembelian untuk produk tersebut dan zahir 
+
+akan membuat purchase order secara otomatis kepada pemasok utama untuk produk tersebut.
+
+Sinkronisasi Cabang
+
+Kemampuan software untuk menyamakan data yang tersebar dilokasi berbeda menggunakan jaringan 
+
+internet Dial-Up sederhana. Fasilitas ini dapat dimanfaatkan oleh perusahaan yang memiliki banyak cabang 
+
+dilokasi yang tersebar, dimana secara otomatis program dapat mengimpor seluruh data cabang ke kantor 
+
+pusat dengan cepat, sehingga kontrol pusat ke cabang akan jauh lebih baik.
+
+Nomor Bukti Transaksi
+
+Fasilitas ini digunakan jika anda membutuhkan tambahan keterangan nomor dokumen dan tanggal dokumen 
+
+disamping nomor referensi (nomor invoice) dan tanggal transaksi utama.
+
+Delivery Status
+
+Fasilitas ini digunakan untuk mencatat informasi status atau kondisi barang-barang yang diterima dari 
+
+supplier atau barang yang dikirim ke pelanggan. Misalnya dalam penerimaan barang dari supplier kondisi 
+
+barang diterima dalam keadaan kurang baik, maka anda dapat mencatat kondisi penerimaan barang 
+
+tersebut menggunakan fasilitas delivery status.
+
+===== HALAMAN 10 =====
+
+Delivery Notes
+
+Fasilitas ini digunakan untuk memberikan catatan informasi penerimaan atau pengiriman produk berkaitan 
+
+dengan nomor paket, dimensi, berat kotor, berat bersih, jumlah dan catatan lain sebagai informasi 
+
+pengiriman.
+
+Distribusi Biaya Import
+
+Fasilitas ini digunakan untuk mengalokasikan / pendistribusian biaya-biaya import (biaya pengiriman) 
+
+kedalam harga pokok untuk masing-masing produk berdasarkan volume, berat dan nilai. Sehingga total biaya 
+
+import (biaya pengiriman) akan di distribusikan ke harga pokok untuk masing-masing produk dalam transaksi 
+
+tersebut.
+
+Tentukan biaya-biaya yang berhubungan dengan transaksi tersebut kemudian pada biaya tersebut klik biaya 
+
+didistribusikan lalu pilih metode pendistribusian biaya, maka harga pokok dari masing-masing produksi akan 
+
+bertambah sesuai dengan alokasi dari pendisitribusian biaya yang bersangkutan.
+
+Transaksi Berulang 
+
+Fasilitas transaksi berulang dapat membantu anda untuk merekam transaksi yang sering diinput dalam 
+
+jangka waktu tertentu, sehingga nantinya anda dapat membuka kembali acuan transaksi yang sudah direkam 
+
+untuk pencatatan transaksi berikutnya, sehingga anda tidak perlu mencatat ulang transaksi yang akan diinput 
+
+berikutnya. Anda cukup memanggil kembali transaksi yang pernah dicatat sebelumnya.
+
+Final Discount
+
+Selain discount untuk masing masing item produk. Zahir memiliki fasilitas final discount, yang berfungsi 
+
+sebagai potongan atas total nilai transaksi penjualan atau pembelian. Anda bisa mencatat nilai final discount 
+
+berdasarkan prosentase atau nilai discountnya. Selain itu anda juga memiliki opsi untuk perhitungan discount 
+
+final sebelum atau setelah perhitungan pajak.
+
+Tidak Bisa Setting Klasifikasi Akun
+
+Limitasi ini terdapat pada zahir edisi small business accounting. Dengan adanya limitasi ini maka anda tidak 
+
+bisa melakukan pengeditan, penghapusan dan penambahan klasifikasi atau kelompok akun. Anda hanya bisa 
+
+menggunakan klasifikasi atau kelompok akun yang sudah ditentukan pada zahir accounting.
+
+Catatan : Limitasi ini bisa dibuka dengan penambahan harga
+
+Max 5 User Concurent
+
+Limitasi ini tedapat pada zahir edisi small business accounting. Dengan adanya limitasi ini zahir edisi small 
+
+business accounting dapat digunakan secara bersamaan menggunakan jaringan (LAN) maksimal oleh 5 orang 
+
+user sekaligus.
+
+Catatan : Limitasi ini bisa dibuka dengan penambahan harga
+
+===== HALAMAN 11 =====
+
+Max 100 Juta Omset Sales
+
+Limitasi ini terdapat pada zahir edisi small business acconting. Dengan adanya limitasi ini, maka transaksi 
+
+penjualan yang diinput hanya diperkenankan sampai 100 juta per bulannya. Jika transaksi penjualan melebihi 
+
+100 juta dalam satu bulan, maka transaksi penjualan tidak dapat diinput.
+
+Max 1000 Item Barang
+
+Limitasi ini terdapat pada zahir edisi smal l business acconting. Dengan adanya limitasi ini, maka data barang 
+
+(produk) yang diiinput maksimal hanya sampai 1000 item barang. Jika data barang melebihi 1000 item, 
+
+maka data barang tersebut tidak dapat diinput.
+
+Catatan : Limitasi ini bisa dibuka dengan penambahan harga
+
+Max 1000 Transaksi
+
+Limitasi ini terdapat pada zahir edisi small business acconting. Dengan adanya limitasi ini, maka seluruh 
+
+transaksi yang diinput maksimal adalah 1000 transaksi dalam satu bulan. Jika transaksi yang diinput 
+
+melebihi 1000 transaksi dalam satu bulan maka transaksi tersebut tidak dapat diinput.
+
+Catatan : Limitasi ini bisa dibuka dengan penambahan harga
