@@ -1008,3 +1008,18 @@ body.v2 .cari-wrap input {
 body.v2 .cari-wrap input:focus { outline: none; border-color: var(--biru); }
 body.v2.dark .cari-wrap input { background: #101b2e; border-color: #2a3957; color: var(--b2-teks); }
 body.v2.dark .cari-wrap input:focus { border-color: var(--b2-biru); }
+
+/* Chip harga: kontras di header putih (perbaikan tak terlihat) */
+body.v2 .harga-chip {
+  background: var(--b2-biru-soft);
+  border: 1.5px solid #c9dcfb;
+  color: var(--b2-biru);
+  font-family: "Space Grotesk", "Plus Jakarta Sans", sans-serif;
+  box-shadow: 0 4px 14px rgba(20, 99, 230, .12);
+}
+body.v2.dark .harga-chip {
+  background: #172441;
+  border-color: #2a3957;
+  color: #9cc2ff;
+  box-shadow: none;
+}
