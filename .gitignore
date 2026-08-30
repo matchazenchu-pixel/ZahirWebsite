@@ -15,3 +15,6 @@ Thumbs.db
 
 # Artefak tooling lokal
 .zcode/
+
+.vercel
+.env*
