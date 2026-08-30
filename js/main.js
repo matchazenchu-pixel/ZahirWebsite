@@ -133,7 +133,6 @@
     if (document.getElementById("modal-keluhan")) return;
     var wrap = document.createElement("div");
     wrap.id = "modal-keluhan";
-    wrap.className = "modal-wa";
     wrap.hidden = true;
     wrap.innerHTML =
       '<div class="modal-backdrop" data-tutup></div>' +
@@ -219,6 +218,7 @@
       if (input) input.focus();
     });
   }
+
   // Pencarian unduhan (halaman Download)
   var cariDl = document.getElementById("cari-download");
   if (cariDl) {
