@@ -863,149 +863,108 @@ body.v2 .kartu-versi .tag {
   box-shadow: 0 4px 14px rgba(16, 24, 40, .18);
 }
 
-/* ---------- Modal keluhan (tombol WA mengambang) ---------- */
-body.v2 .modal-wa { position: fixed; inset: 0; z-index: 300; display: grid; place-items: center; padding: 20px; }
+/* ---------- WhatsApp support panel ---------- */
+body.v2 .modal-wa { position: fixed; inset: 0; z-index: 300; pointer-events: none; }
 body.v2 .modal-wa[hidden] { display: none; }
+body.v2 .modal-backdrop { position: absolute; inset: 0; background: rgba(7,12,22,.34); backdrop-filter: blur(2px); pointer-events: auto; }
+body.v2 .modal-kotak {
+  position: absolute; right: 22px; bottom: 90px; width: min(390px, calc(100vw - 28px)); max-height: calc(100vh - 112px);
+  display: flex; flex-direction: column; overflow: hidden; background: #fff; border: 1px solid #dfe6f1; border-radius: 20px;
+  box-shadow: 0 24px 70px rgba(16,24,40,.28); pointer-events: auto; transform-origin: bottom right;
+  animation: wa-panel-masuk .22s cubic-bezier(.2,.8,.3,1);
+}
+@keyframes wa-panel-masuk { from { transform: translateY(14px) scale(.96); opacity: 0; } to { transform: none; opacity: 1; } }
+body.v2 .wa-panel-head { display:flex; align-items:center; gap:12px; padding:18px 18px 16px; background:linear-gradient(135deg,#1fbf5f,#159447); color:#fff; }
+body.v2 .modal-wa-ikon { width:44px; height:44px; flex:0 0 44px; border-radius:13px; background:#fff; color:#20b75a; display:grid; place-items:center; }
+body.v2 .modal-wa-ikon svg { width:23px; height:23px; }
+body.v2 .wa-panel-head h3 { margin:0 0 3px; color:#fff; font-size:1rem; }
+body.v2 .wa-panel-head p { margin:0; color:rgba(255,255,255,.86); font-size:.74rem; }
+body.v2 .wa-dot { display:inline-block; width:7px; height:7px; margin-right:5px; border-radius:50%; background:#a6ffbf; box-shadow:0 0 0 3px rgba(255,255,255,.12); }
+body.v2 .modal-tutup { margin-left:auto; width:36px; height:36px; border:0; border-radius:50%; color:#fff; background:rgba(255,255,255,.14); display:grid; place-items:center; font-size:1.25rem; cursor:pointer; }
+body.v2 .modal-tutup:hover { background:rgba(255,255,255,.24); }
+body.v2 .wa-panel-body { padding:18px; overflow-y:auto; background:#f7faf8; }
+body.v2 .wa-bubble { width:90%; padding:12px 14px; margin-bottom:16px; border-radius:4px 14px 14px 14px; background:#fff; border:1px solid #e4ebe6; color:#455268; font-size:.84rem; line-height:1.55; box-shadow:0 3px 10px rgba(16,24,40,.05); }
+body.v2 #form-keluhan { display:flex; flex-direction:column; gap:12px; }
+body.v2 #form-keluhan label { display:flex; flex-direction:column; gap:5px; color:#47516a; font-size:.73rem; font-weight:700; }
+body.v2 .modal-baris { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+body.v2 #form-keluhan input, body.v2 #form-keluhan select, body.v2 #form-keluhan textarea { width:100%; font:400 .86rem/1.4 inherit; color:#182134; background:#fff; border:1px solid #dce4ed; border-radius:10px; padding:10px 12px; transition:.15s ease; }
+body.v2 #form-keluhan input:focus, body.v2 #form-keluhan select:focus, body.v2 #form-keluhan textarea:focus { outline:none; border-color:#20b75a; box-shadow:0 0 0 3px rgba(32,183,90,.13); }
+body.v2 #form-keluhan textarea { min-height:72px; resize:vertical; }
+body.v2 .modal-kirim { min-height:46px; display:flex; align-items:center; justify-content:center; gap:9px; border:0; border-radius:11px; background:#20bd5f; color:#fff; font:700 .9rem inherit; cursor:pointer; box-shadow:0 8px 20px rgba(32,189,95,.25); transition:.18s ease; }
+body.v2 .modal-kirim:hover { background:#18a851; transform:translateY(-1px); }
+body.v2 .modal-kirim svg { width:17px; height:17px; }
+body.v2 .modal-status { margin:0; color:#158a43; font-size:.8rem; font-weight:650; }
+body.v2 .wa-panel-foot { padding:10px 18px; text-align:center; border-top:1px solid #e8edf2; background:#fff; color:#8893a5; font-size:.7rem; }
+/* Dark */
+body.v2.dark .modal-backdrop { background:rgba(2,6,14,.48); }
+body.v2.dark .modal-kotak { background:#101b2e; border-color:#243252; }
+body.v2.dark .wa-panel-body { background:#0d1729; }
+body.v2.dark .wa-bubble { color:#c3ccdc; background:#16233f; border-color:#243252; }
+body.v2.dark #form-keluhan label { color:#b9c3d6; }
+body.v2.dark #form-keluhan input, body.v2.dark #form-keluhan select, body.v2.dark #form-keluhan textarea { color:#e7ecf5; background:#101b2e; border-color:#2a3957; }
+body.v2.dark .wa-panel-foot { color:#7f8aa0; background:#101b2e; border-color:#243252; }
+body.v2.dark .modal-status { color:#4ade80; }
+@media (max-width:560px) {
+  body.v2 .modal-backdrop { background:rgba(7,12,22,.52); }
+  body.v2 .modal-kotak { right:12px; bottom:80px; width:calc(100vw - 24px); max-height:calc(100vh - 96px); border-radius:18px; }
+  body.v2 .modal-baris { grid-template-columns:1fr; }
+}
+
+/* WhatsApp widget positioning fix — selalu di atas launcher, tidak menutupi navbar */
+body.v2 .modal-wa { pointer-events: none; }
 body.v2 .modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(9, 14, 26, .66);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  pointer-events: auto;
 }
 body.v2 .modal-kotak {
-  position: relative;
-  width: min(430px, 100%);
-  background: #fff;
-  border: 1px solid var(--b2-border);
-  border-radius: 22px;
-  padding: 30px 30px 26px;
-  box-shadow: 0 40px 90px rgba(4, 12, 30, .45);
-  animation: v2-modal-naik .24s cubic-bezier(.2, .8, .3, 1);
+  position: fixed;
+  top: auto;
+  right: 22px;
+  bottom: 90px;
+  width: min(380px, calc(100vw - 28px));
+  max-height: min(590px, calc(100dvh - 178px));
+  pointer-events: auto;
 }
-@keyframes v2-modal-naik {
-  from { transform: translateY(16px) scale(.98); opacity: 0; }
-  to { transform: translateY(0) scale(1); opacity: 1; }
+body.v2 .wa-panel-head,
+body.v2 .wa-panel-foot { flex: 0 0 auto; }
+body.v2 .wa-panel-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #b9c5d4 transparent;
 }
-body.v2 .modal-tutup {
-  position: absolute;
-  top: 16px;
-  right: 18px;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: #f1f4f9;
-  border: 0;
-  font-size: 1.25rem;
-  line-height: 1;
-  color: #5b6474;
-  cursor: pointer;
-  display: grid;
-  place-items: center;
-}
-body.v2 .modal-tutup:hover { background: #e3eaf5; color: var(--b2-biru); }
-body.v2 .modal-wa-ikon {
-  width: 54px;
-  height: 54px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, #34e07a, #1fbf5f);
-  display: grid;
-  place-items: center;
-  color: #fff;
-  box-shadow: 0 10px 24px rgba(37, 211, 102, .35);
-  margin-bottom: 16px;
-}
-body.v2 .modal-wa-ikon svg { width: 26px; height: 26px; }
-body.v2 .modal-kotak h3 {
-  font-size: 1.22rem;
-  font-weight: 800;
-  letter-spacing: -.01em;
-  margin-bottom: 6px;
-  color: var(--b2-teks);
-}
-body.v2 .modal-sub { font-size: .9rem; color: var(--b2-abu); margin-bottom: 22px; line-height: 1.65; }
-body.v2 #form-keluhan { display: flex; flex-direction: column; gap: 16px; }
-body.v2 #form-keluhan label {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  font-size: .78rem;
-  font-weight: 700;
-  color: #47516a;
-}
-body.v2 .modal-baris { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-body.v2 #form-keluhan input,
-body.v2 #form-keluhan select,
-body.v2 #form-keluhan textarea {
-  font-family: inherit;
-  font-size: .93rem;
-  font-weight: 400;
-  padding: 12px 14px;
-  border: 1.5px solid #dbe3ef;
-  border-radius: 12px;
-  background: #f8fafd;
-  color: var(--b2-teks);
-  transition: all .15s ease;
-}
-body.v2 #form-keluhan input:focus,
-body.v2 #form-keluhan select:focus,
-body.v2 #form-keluhan textarea:focus {
-  outline: none;
-  border-color: var(--b2-biru);
-  background: #fff;
-  box-shadow: 0 0 0 3px rgba(20, 99, 230, .13);
-}
-body.v2 #form-keluhan textarea { resize: vertical; min-height: 92px; }
-body.v2 .modal-kirim {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-  background: linear-gradient(135deg, #2fd470, #1fbf5f);
-  color: #fff;
-  border: 0;
-  border-radius: 12px;
-  padding: 14px 22px;
-  font-family: inherit;
-  font-size: .95rem;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 10px 24px rgba(37, 211, 102, .3);
-  transition: all .18s ease;
-}
-body.v2 .modal-kirim:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(37, 211, 102, .38);
-}
-body.v2 .modal-kirim svg { width: 18px; height: 18px; }
-body.v2 .modal-status { font-size: .88rem; font-weight: 600; color: #16a34a; margin: 0; }
-body.v2 .modal-micro { font-size: .76rem; color: var(--b2-mute); text-align: center; margin: 4px 0 0; }
+body.v2 .wa-panel-body::-webkit-scrollbar { width: 5px; }
+body.v2 .wa-panel-body::-webkit-scrollbar-thumb { background: #b9c5d4; border-radius: 99px; }
+body.v2.dark .wa-panel-body { scrollbar-color: #42516d transparent; }
+body.v2.dark .wa-panel-body::-webkit-scrollbar-thumb { background: #42516d; }
 
-/* Modal gelap */
-body.v2.dark .modal-backdrop { background: rgba(2, 6, 14, .7); }
-body.v2.dark .modal-kotak { background: #101b2e; border-color: #243252; }
-body.v2.dark .modal-tutup { background: #16233f; color: #a4aec2; }
-body.v2.dark .modal-tutup:hover { background: #1d2d4d; color: #8db4ff; }
-body.v2.dark .modal-kotak h3 { color: var(--b2-teks); }
-body.v2.dark .modal-sub { color: var(--b2-abu); }
-body.v2.dark #form-keluhan label { color: #b9c3d6; }
-body.v2.dark #form-keluhan input,
-body.v2.dark #form-keluhan select,
-body.v2.dark #form-keluhan textarea {
-  background: #0f1930;
-  border-color: #243252;
-  color: var(--b2-teks);
+@media (max-width: 560px) {
+  body.v2 .modal-kotak {
+    right: 12px;
+    bottom: 80px;
+    width: calc(100vw - 24px);
+    max-height: calc(100dvh - 164px);
+  }
 }
-body.v2.dark #form-keluhan input:focus,
-body.v2.dark #form-keluhan select:focus,
-body.v2.dark #form-keluhan textarea:focus {
-  background: #0d1729;
-  border-color: var(--b2-biru);
+@media (max-height: 610px) {
+  body.v2 .wa-panel-head { padding: 12px 15px; }
+  body.v2 .modal-wa-ikon { width: 38px; height: 38px; flex-basis: 38px; border-radius: 11px; }
+  body.v2 .modal-wa-ikon svg { width: 20px; height: 20px; }
+  body.v2 .wa-panel-body { padding: 12px 15px; }
+  body.v2 .wa-bubble { margin-bottom: 10px; padding: 9px 11px; }
+  body.v2 #form-keluhan { gap: 9px; }
+  body.v2 #form-keluhan input,
+  body.v2 #form-keluhan select,
+  body.v2 #form-keluhan textarea { padding: 8px 10px; }
+  body.v2 #form-keluhan textarea { min-height: 56px; }
+  body.v2 .modal-kirim { min-height: 42px; }
+  body.v2 .wa-panel-foot { padding: 7px 14px; }
 }
-body.v2.dark .modal-status { color: #4ade80; }
-body.v2.dark .modal-micro { color: var(--b2-mute); }
-
-@media (max-width: 480px) {
-  body.v2 .modal-baris { grid-template-columns: 1fr; }
-  body.v2 .modal-kotak { padding: 24px 20px; }
-}
+/* Final alignment with floating launcher */
+body.v2 .modal-kotak { bottom: 104px; }
+body.v2.dark .modal-backdrop { background: transparent; backdrop-filter: none; -webkit-backdrop-filter: none; }
+@media (max-width: 560px) { body.v2 .modal-kotak { bottom: 94px; } }
