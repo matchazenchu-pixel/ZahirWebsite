@@ -50,7 +50,7 @@
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
     // Dropdown di mobile: klik judul membuka daftar produk
-    document.querySelectorAll(".dropdown > a.nav-link").forEach(function (link) {
+    document.querySelectorAll(".dropdown > a").forEach(function (link) {
       link.addEventListener("click", function (e) {
         if (window.matchMedia("(max-width: 820px)").matches) {
           e.preventDefault();
@@ -58,13 +58,26 @@
         }
       });
     });
-    // Tutup menu setelah memilih tautan
-    menu.querySelectorAll("a").forEach(function (a) {
-      a.addEventListener("click", function () {
-        if (a.closest(".dropdown") && a.classList.contains("nav-link")) return;
-        menu.classList.remove("open");
-        toggle.classList.remove("open");
-      });
+
+    // Submenu edisi Accounting 6 di mobile: delegation agar pasti aktif
+    menu.addEventListener("click", function (e) {
+      var subToggle = e.target.closest(".dropdown-submenu-toggle");
+      if (subToggle && window.matchMedia("(max-width: 820px)").matches) {
+        e.preventDefault();
+        e.stopPropagation();
+        var subItem = subToggle.parentElement;
+        var willOpen = !subItem.classList.contains("open");
+        subItem.classList.toggle("open", willOpen);
+        subToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+        return;
+      }
+
+      var a = e.target.closest("a");
+      if (!a) return;
+      if (a.closest(".dropdown") && a.classList.contains("nav-link")) return;
+      if (a.classList.contains("dropdown-submenu-toggle")) return;
+      menu.classList.remove("open");
+      toggle.classList.remove("open");
     });
   }
 
@@ -133,7 +146,6 @@
     if (document.getElementById("modal-keluhan")) return;
     var wrap = document.createElement("div");
     wrap.id = "modal-keluhan";
-    wrap.className = "modal-wa";
     wrap.hidden = true;
     wrap.innerHTML =
       '<div class="modal-backdrop" data-tutup></div>' +
@@ -219,6 +231,7 @@
       if (input) input.focus();
     });
   }
+
   // Pencarian unduhan (halaman Download)
   var cariDl = document.getElementById("cari-download");
   if (cariDl) {
@@ -228,5 +241,39 @@
         item.style.display = item.textContent.toLowerCase().indexOf(q) !== -1 ? "" : "none";
       });
     });
+  }
+
+  // Halaman Download: chip kategori membuka accordion tujuan (#dl-*)
+  if (document.body.classList.contains("hal-dl")) {
+    var bukaKategoriDl = function (id) {
+      var item = document.getElementById(id);
+      if (!item || !item.classList.contains("acc-item")) return;
+      document.querySelectorAll(".acc-item.buka").forEach(function (it) {
+        if (it !== item) {
+          it.classList.remove("buka");
+          var b = it.querySelector(".acc-body");
+          if (b) b.style.maxHeight = null;
+        }
+      });
+      item.classList.add("buka");
+      var body = item.querySelector(".acc-body");
+      if (body) body.style.maxHeight = body.scrollHeight + "px";
+    };
+    var terapkanHashDl = function () {
+      var id = (location.hash || "").replace("#", "");
+      if (id.indexOf("dl-") === 0) bukaKategoriDl(id);
+    };
+    document.querySelectorAll(".dl-chips .dl-chip").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = (a.getAttribute("href") || "").replace("#", "");
+        bukaKategoriDl(id);
+        var item = document.getElementById(id);
+        if (item) item.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.replaceState(null, "", a.getAttribute("href"));
+      });
+    });
+    window.addEventListener("hashchange", terapkanHashDl);
+    terapkanHashDl();
   }
 })();
