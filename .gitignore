@@ -1,5 +1,11 @@
 # Snapshot & backup lokal
 backup/
+backup_project_*/
+FIX BACKUPAN */
+gui-test-screenshots/
+300ppi/
+*.backup.html
+test_dark_desktop.html
 
 # Materi sumber berat (PDF brosur & hasil ekstraksi gambar)
 Zahir Produc/
